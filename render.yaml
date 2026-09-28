@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: medicos-utatlan-alejandro
+    runtime: static
+    buildCommand: echo "Archivos estáticos listos"
+    staticPublishPath: ./dist
