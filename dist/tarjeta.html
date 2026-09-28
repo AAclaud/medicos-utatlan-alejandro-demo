@@ -11,11 +11,16 @@
   <main>
     <p class="eyebrow">MÉDICOS UTATLÁN</p><h1>Mi tarjeta médica.</h1><p class="lead">Tu identificación en Recepción y el acceso a tu portal, en una sola tarjeta.</p>
     <div class="cards">
-      <section class="card front" aria-label="Frente de la tarjeta"><div class="card-top"><span>SANATORIO PRIVADO<br>UTATLÁN</span><span class="seal">MÉDICOS<br>UTATLÁN</span></div><div class="card-bottom"><span class="member-label">PROGRAMA MÉDICO</span><strong>Dr. Alejandro<br>Toledo</strong><span id="level">BRONCE</span></div></section>
-      <section class="card back" aria-label="Reverso de la tarjeta"><div class="back-heading"><span>MÉDICOS UTATLÁN</span><span>UTM-0001</span></div><div class="codes"><div class="barcode-panel"><img src="barcode.png" alt="Código de barras del médico UTM-0001"><span>IDENTIFICACIÓN EN RECEPCIÓN</span></div><div class="qr-panel"><div id="qr" aria-label="Código QR del portal médico"></div><span>MI PORTAL MÉDICO</span></div></div><div class="back-footer">Dr. Alejandro Toledo <span>Sanatorio Privado Utatlán</span></div></section>
+      <section class="card front" aria-label="Frente de la tarjeta">
+        <img class="card-art" src="frente-club-medico.png" alt="Frente de la tarjeta Club Médico Utatlán">
+      </section>
+      <section class="card back" aria-label="Reverso de la tarjeta">
+        <img class="card-art" src="reverso-club-medico.png" alt="Reverso de la tarjeta Club Médico Utatlán">
+      </section>
     </div>
+    <p class="card-category">Categoría <strong id="level">BRONCE</strong></p>
     <div class="actions"><a id="portal-link" href="portal.html">Abrir mi portal →</a><span>Presenta el código de barras en Recepción al registrar un procedimiento privado.</span></div>
   </main>
-  <script src="vendor/qrcode.js"></script><script src="state.js"></script><script src="tarjeta.js"></script>
+  <script src="state.js"></script><script src="tarjeta.js"></script>
 </body>
 </html>
