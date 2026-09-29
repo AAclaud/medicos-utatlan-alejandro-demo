@@ -6,7 +6,7 @@ const icons={home:'<path d="m3 10 9-7 9 7v10H3Z"/><path d="M9 20v-7h6v7"/>',gift
 const icon=n=>`<svg aria-hidden="true" viewBox="0 0 24 24">${icons[n]||icons.gift}</svg>`;
 const nav=[['inicio','Inicio','home'],['premios','Premios','gift'],['recorrido','Recorrido','history'],['tarjeta','Mi tarjeta','card']];
 const prizes=[
- {id:'p3',source:'Procedimiento 3',title:'50% en un medicamento',state:'used',description:'50% en un medicamento de una sola cuenta, por una sola vez. Premio utilizado en una cuenta anterior. Vigencia: un mes desde su acreditación. Aplican restricciones.'},
+ {id:'p3',source:'Procedimiento 3',title:'50% en habitación',state:'used',description:'50% en habitación, aplicable una sola vez a una sola cuenta. Premio utilizado en una cuenta anterior. Vigencia: un mes desde su acreditación. Aplican restricciones.'},
  {id:'p6',source:'Procedimiento 6',title:'Habitación privada sin costo',state:'available',description:'Una noche en habitación privada sin costo de habitación, por una sola vez. Vigencia: un mes desde su acreditación. Sujeta a disponibilidad; no incluye servicios médicos ni medicamentos. Aplican restricciones.'},
  {id:'p9',source:'Procedimiento 9',title:'50% en una noche de suite',state:'available',description:'50% en la tarifa de una noche de suite, por una sola vez. Vigencia: un mes desde su acreditación. Sujeto a disponibilidad; no incluye servicios médicos ni medicamentos. Aplican restricciones.'},
  {id:'p12',source:'Procedimiento 12',title:'Suite sin costo',state:closed?'available':'locked',description:'Una noche de suite sin costo de habitación, por una sola vez. Vigencia: un mes desde su acreditación. Sujeta a disponibilidad; no incluye servicios médicos ni medicamentos. Aplican restricciones.'},
